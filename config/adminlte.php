@@ -328,6 +328,23 @@ return [
             'label' => 4,
             'label_color' => 'success',
         ],
+        ['header' => 'MENU'],
+        [
+            'text' => 'Kategori',
+            'url' => '../public/kategori',
+            'icon' => 'fas fa-fw fa-server',
+
+        ],
+        [
+            'text' => 'Level',
+            'url' => '../public/level',
+            'icon' => 'fas fa-fw fa-cubes',
+        ],
+        [
+            'text' => 'User',
+            'url' => '../public/user',
+            'icon' => 'fas fa-fw fa-user',
+        ],
         ['header' => 'account_settings'],
         [
             'text' => 'profile',

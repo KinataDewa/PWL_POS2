@@ -1,31 +1,31 @@
-@extends('layout.app')
+@extends('adminlte::page')
+@section('title', 'Dashboard')
+@section('content_header')
+<h1>Dashboard</h1>
+@stop
+@section('content')
+<div class="card-body">
+<form>
+<div class="row">
+<div class="col-sm-6">
+<!-- text input -->
+<div class="form-group">
+<label>Level id</label><input type="text" class="form-control" placeholder="id">
+<div>
+</div>
+<button type = "submit" class ="btn btn-info">Submit </button>
+</div>
+@stop
+@section('css')
+{{-- Add here extra stylesheets --}}
+{{-- <link rel="stylesheet" href="/css/admin_custom.css"> --}}
+@stop
+@section('js')
+<script> console.log("Hi, I'm using the Laravel-AdminLTE package!"); </script>
+@stop
 
-{{-- Customize layout sections --}}
 
-@section('subtitle', 'Welcome')
-@section('content_header_title', 'Home')
-@section('content_header_subtitle', 'Welcome')
-
-{{-- Content body: main page content --}}
-
-@section('content_body')
-    <p>Welcome to this beautiful admin panel.</p>
-@endsection
-
-{{-- Push extra CSS --}}
-
-@push('css')
-    {{-- Add here extra stylesheets --}}
-    {{-- <link rel="stylesheet" href="/css/admin_custom.css" --}}
-@endpush
-
-{{-- Push extra scripts --}}
-
-@push('js')
-    <script> console.log("Hi, I'm using the Laravel-AdminLTE package!"); </script>
-@endpush
-
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -98,7 +98,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <img src="{{ asset('template/dist/img/user1-128x128.jpg') }}" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Brad Diesel
@@ -114,7 +114,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="{{ asset('template/dist/img/user8-128x128.jpg')}}" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   John Pierce
@@ -130,7 +130,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="{{ asset('template/dist/img/user3-128x128.jpg')}}" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Nora Silvester
@@ -191,7 +191,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="{{asset('template/dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">AdminLTE 3</span>
     </a>
 
@@ -200,7 +200,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="{{ asset('template/dist/img/user2-160x160.jpg')}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Alexander Pierce</a>
@@ -1168,7 +1168,7 @@
                           <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                         </div>
                         <!-- /.direct-chat-infos -->
-                        <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image">
+                        <img class="direct-chat-img" src="{{asset('template/dist/img/user1-128x128.jpg')}}" alt="message user image">
                         <!-- /.direct-chat-img -->
                         <div class="direct-chat-text">
                           Is this template really for free? That's unbelievable!
@@ -1184,7 +1184,7 @@
                           <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                         </div>
                         <!-- /.direct-chat-infos -->
-                        <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image">
+                        <img class="direct-chat-img" src="{{asset('template/dist/img/user1-128x128.jpg')}}" alt="message user image">
                         <!-- /.direct-chat-img -->
                         <div class="direct-chat-text">
                           You better believe it!
@@ -1200,7 +1200,7 @@
                           <span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
                         </div>
                         <!-- /.direct-chat-infos -->
-                        <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image">
+                        <img class="direct-chat-img" src="{{asset('template/dist/img/user1-128x128.jpg')}}" alt="message user image">
                         <!-- /.direct-chat-img -->
                         <div class="direct-chat-text">
                           Working with AdminLTE on a great new app! Wanna join?
@@ -1216,7 +1216,7 @@
                           <span class="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>
                         </div>
                         <!-- /.direct-chat-infos -->
-                        <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image">
+                        <img class="direct-chat-img" src="{{asset('template/dist/img/user3-128x128.jpg')}}" alt="message user image">
                         <!-- /.direct-chat-img -->
                         <div class="direct-chat-text">
                           I would love to.
@@ -1233,7 +1233,7 @@
                       <ul class="contacts-list">
                         <li>
                           <a href="#">
-                            <img class="contacts-list-img" src="dist/img/user1-128x128.jpg" alt="User Avatar">
+                            <img class="contacts-list-img" src="{{asset('template/dist/img/user1-128x128.jpg')}}" alt="User Avatar">
 
                             <div class="contacts-list-info">
                               <span class="contacts-list-name">
@@ -1248,7 +1248,7 @@
                         <!-- End Contact Item -->
                         <li>
                           <a href="#">
-                            <img class="contacts-list-img" src="dist/img/user7-128x128.jpg" alt="User Avatar">
+                            <img class="contacts-list-img" src="{{asset('template/dist/img/user7-128x128.jpg')}}" alt="User Avatar">
 
                             <div class="contacts-list-info">
                               <span class="contacts-list-name">
@@ -1278,7 +1278,7 @@
                         <!-- End Contact Item -->
                         <li>
                           <a href="#">
-                            <img class="contacts-list-img" src="dist/img/user5-128x128.jpg" alt="User Avatar">
+                            <img class="contacts-list-img" src="{{asset('template/dist/img/user5-128x128.jpg')}}" alt="User Avatar">
 
                             <div class="contacts-list-info">
                               <span class="contacts-list-name">
@@ -1293,7 +1293,7 @@
                         <!-- End Contact Item -->
                         <li>
                           <a href="#">
-                            <img class="contacts-list-img" src="dist/img/user6-128x128.jpg" alt="User Avatar">
+                            <img class="contacts-list-img" src="{{asset('template/dist/img/user6-128x128.jpg')}}" alt="User Avatar">
 
                             <div class="contacts-list-info">
                               <span class="contacts-list-name">
@@ -1308,7 +1308,7 @@
                         <!-- End Contact Item -->
                         <li>
                           <a href="#">
-                            <img class="contacts-list-img" src="dist/img/user8-128x128.jpg" alt="User Avatar">
+                            <img class="contacts-list-img" src="{{asset('template/dist/img/user8-128x128.jpg')}}" alt="User Avatar">
 
                             <div class="contacts-list-info">
                               <span class="contacts-list-name">
@@ -1363,42 +1363,42 @@
                   <div class="card-body p-0">
                     <ul class="users-list clearfix">
                       <li>
-                        <img src="dist/img/user1-128x128.jpg" alt="User Image">
+                        <img src="{{asset('template/dist/img/user1-128x128.jpg')}}" alt="User Image">
                         <a class="users-list-name" href="#">Alexander Pierce</a>
                         <span class="users-list-date">Today</span>
                       </li>
                       <li>
-                        <img src="dist/img/user8-128x128.jpg" alt="User Image">
+                        <img src="{{asset('template/dist/img/user8-128x128.jpg')}}" alt="User Image">
                         <a class="users-list-name" href="#">Norman</a>
                         <span class="users-list-date">Yesterday</span>
                       </li>
                       <li>
-                        <img src="dist/img/user7-128x128.jpg" alt="User Image">
+                        <img src="{{asset('template/dist/img/user7-128x128.jpg')}}" alt="User Image">
                         <a class="users-list-name" href="#">Jane</a>
                         <span class="users-list-date">12 Jan</span>
                       </li>
                       <li>
-                        <img src="dist/img/user6-128x128.jpg" alt="User Image">
+                        <img src="{{asset('template/dist/img/user6-128x128.jpg')}}" alt="User Image">
                         <a class="users-list-name" href="#">John</a>
                         <span class="users-list-date">12 Jan</span>
                       </li>
                       <li>
-                        <img src="dist/img/user2-160x160.jpg" alt="User Image">
+                        <img src="{{asset('template/dist/img/user2-160x160.jpg')}}" alt="User Image">
                         <a class="users-list-name" href="#">Alexander</a>
                         <span class="users-list-date">13 Jan</span>
                       </li>
                       <li>
-                        <img src="dist/img/user5-128x128.jpg" alt="User Image">
+                        <img src="{{asset('template/dist/img/user5-128x128.jpg')}}" alt="User Image">
                         <a class="users-list-name" href="#">Sarah</a>
                         <span class="users-list-date">14 Jan</span>
                       </li>
                       <li>
-                        <img src="dist/img/user4-128x128.jpg" alt="User Image">
+                        <img src="{{asset('template/dist/img/user4-128x128.jpg')}}" alt="User Image">
                         <a class="users-list-name" href="#">Nora</a>
                         <span class="users-list-date">15 Jan</span>
                       </li>
                       <li>
-                        <img src="dist/img/user3-128x128.jpg" alt="User Image">
+                        <img src="{{asset('template/dist/img/user3-128x128.jpg')}}" alt="User Image">
                         <a class="users-list-name" href="#">Nadia</a>
                         <span class="users-list-date">15 Jan</span>
                       </li>
@@ -1761,4 +1761,4 @@
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="{{ asset('template/dist/js/pages/dashboard2.js') }}"></script>
 </body>
-</html>
+</html> --}}

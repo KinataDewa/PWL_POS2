@@ -16,7 +16,7 @@ class StokSeeder extends Seeder
     {
         $data = [
             [
-                'barang_id' => 1,
+                'barang_id' => 11,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
                 'stok_jumlah' => 50,
@@ -24,7 +24,7 @@ class StokSeeder extends Seeder
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 2,
+                'barang_id' => 12,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
                 'stok_jumlah' => 30,
@@ -32,7 +32,7 @@ class StokSeeder extends Seeder
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 3,
+                'barang_id' => 13,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
                 'stok_jumlah' => 40,
@@ -40,7 +40,7 @@ class StokSeeder extends Seeder
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 4,
+                'barang_id' => 14,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
                 'stok_jumlah' => 25,
@@ -48,7 +48,7 @@ class StokSeeder extends Seeder
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 5,
+                'barang_id' => 15,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
                 'stok_jumlah' => 35,
@@ -56,7 +56,7 @@ class StokSeeder extends Seeder
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 6,
+                'barang_id' => 16,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
                 'stok_jumlah' => 20,
@@ -64,7 +64,7 @@ class StokSeeder extends Seeder
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 7,
+                'barang_id' => 17,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
                 'stok_jumlah' => 45,
@@ -72,7 +72,7 @@ class StokSeeder extends Seeder
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 8,
+                'barang_id' => 18,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
                 'stok_jumlah' => 15,
@@ -80,7 +80,7 @@ class StokSeeder extends Seeder
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 9,
+                'barang_id' => 19,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
                 'stok_jumlah' => 28,
@@ -88,7 +88,7 @@ class StokSeeder extends Seeder
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 10,
+                'barang_id' => 20,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
                 'stok_jumlah' => 22,
