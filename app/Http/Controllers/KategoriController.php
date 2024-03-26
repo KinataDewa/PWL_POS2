@@ -56,5 +56,4 @@ class KategoriController extends Controller
         KategoriModel::destroy($id);
         return redirect('/kategori');
     }
-
 }
