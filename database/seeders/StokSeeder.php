@@ -16,47 +16,15 @@ class StokSeeder extends Seeder
     {
         $data = [
             [
-                'barang_id' => 11,
+                'barang_id' => 41,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
-                'stok_jumlah' => 50,
+                'stok_jumlah' => 10,
                 'created_at' => '2024-02-27 08:00:00',
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 12,
-                'user_id' => 1,
-                'stok_tanggal' => '2024-02-27 08:00:00',
-                'stok_jumlah' => 30,
-                'created_at' => '2024-02-27 08:00:00',
-                'updated_at' => '2024-02-27 08:00:00'
-            ],
-            [
-                'barang_id' => 13,
-                'user_id' => 1,
-                'stok_tanggal' => '2024-02-27 08:00:00',
-                'stok_jumlah' => 40,
-                'created_at' => '2024-02-27 08:00:00',
-                'updated_at' => '2024-02-27 08:00:00'
-            ],
-            [
-                'barang_id' => 14,
-                'user_id' => 1,
-                'stok_tanggal' => '2024-02-27 08:00:00',
-                'stok_jumlah' => 25,
-                'created_at' => '2024-02-27 08:00:00',
-                'updated_at' => '2024-02-27 08:00:00'
-            ],
-            [
-                'barang_id' => 15,
-                'user_id' => 1,
-                'stok_tanggal' => '2024-02-27 08:00:00',
-                'stok_jumlah' => 35,
-                'created_at' => '2024-02-27 08:00:00',
-                'updated_at' => '2024-02-27 08:00:00'
-            ],
-            [
-                'barang_id' => 16,
+                'barang_id' => 42,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
                 'stok_jumlah' => 20,
@@ -64,34 +32,66 @@ class StokSeeder extends Seeder
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 17,
+                'barang_id' => 43,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
-                'stok_jumlah' => 45,
+                'stok_jumlah' => 30,
                 'created_at' => '2024-02-27 08:00:00',
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 18,
+                'barang_id' => 44,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
-                'stok_jumlah' => 15,
+                'stok_jumlah' => 40,
                 'created_at' => '2024-02-27 08:00:00',
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 19,
+                'barang_id' => 45,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
-                'stok_jumlah' => 28,
+                'stok_jumlah' => 50,
                 'created_at' => '2024-02-27 08:00:00',
                 'updated_at' => '2024-02-27 08:00:00'
             ],
             [
-                'barang_id' => 20,
+                'barang_id' => 46,
                 'user_id' => 1,
                 'stok_tanggal' => '2024-02-27 08:00:00',
-                'stok_jumlah' => 22,
+                'stok_jumlah' => 10,
+                'created_at' => '2024-02-27 08:00:00',
+                'updated_at' => '2024-02-27 08:00:00'
+            ],
+            [
+                'barang_id' => 47,
+                'user_id' => 1,
+                'stok_tanggal' => '2024-02-27 08:00:00',
+                'stok_jumlah' => 20,
+                'created_at' => '2024-02-27 08:00:00',
+                'updated_at' => '2024-02-27 08:00:00'
+            ],
+            [
+                'barang_id' => 48,
+                'user_id' => 1,
+                'stok_tanggal' => '2024-02-27 08:00:00',
+                'stok_jumlah' => 30,
+                'created_at' => '2024-02-27 08:00:00',
+                'updated_at' => '2024-02-27 08:00:00'
+            ],
+            [
+                'barang_id' => 49,
+                'user_id' => 1,
+                'stok_tanggal' => '2024-02-27 08:00:00',
+                'stok_jumlah' => 40,
+                'created_at' => '2024-02-27 08:00:00',
+                'updated_at' => '2024-02-27 08:00:00'
+            ],
+            [
+                'barang_id' => 50,
+                'user_id' => 1,
+                'stok_tanggal' => '2024-02-27 08:00:00',
+                'stok_jumlah' => 50,
                 'created_at' => '2024-02-27 08:00:00',
                 'updated_at' => '2024-02-27 08:00:00'
             ]

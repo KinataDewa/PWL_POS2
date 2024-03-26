@@ -18,27 +18,27 @@ class KategoriSeeder extends Seeder
             [
                 'kategori_id' => 1,
                 'kategori_kode' => 'KAT001',
-                'kategori_nama' => 'Elektronik'
+                'kategori_nama' => 'HP'
             ],
             [
                 'kategori_id' => 2,
                 'kategori_kode' => 'KAT002',
-                'kategori_nama' => 'Pakaian'
+                'kategori_nama' => 'Laptop'
             ],
             [
                 'kategori_id' => 3,
                 'kategori_kode' => 'KAT003',
-                'kategori_nama' => 'Makanan'
+                'kategori_nama' => 'TWS'
             ],
             [
                 'kategori_id' => 4,
                 'kategori_kode' => 'KAT004',
-                'kategori_nama' => 'Perabotan Rumah'
+                'kategori_nama' => 'Mouse'
             ],
             [
                 'kategori_id' => 5,
                 'kategori_kode' => 'KAT005',
-                'kategori_nama' => 'Alat Tulis Kantor'
+                'kategori_nama' => 'Keyboard'
             ],
         ];
         DB::table('m_kategori')->insert($data);
